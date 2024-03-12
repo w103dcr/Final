@@ -1,0 +1,27 @@
+/* Force disabled appearance on readonly input fields */
+.form-control[readonly],
+.form-control[readonly]:focus{
+	background-color: #e9ecef;
+	cursor: not-allowed;
+	outline-style: none;
+	box-shadow: none;
+	border-color: #dee2e6;
+}
+
+/* Additional utility class */
+.h-100-vh{
+	height: 100vh;
+}
+
+.wrapper{
+	max-width: 1800px;
+}
+
+.wrapper.login{
+	max-width: 600px;
+}
+
+.login>form{
+	border: solid #f7f7f9;
+	border-width: .2rem
+}
