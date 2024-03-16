@@ -1,6 +1,6 @@
 The only change made based on the professor's feedback was adding the network section to the proposal.
 I have highlighted this in the Systems_Requirements document.
-No other reports were changed becasue no other changes were possible since no other reports listed below had grades or comments on changes needed before submission of the midterm.
+No other reports were changed because no other changes were possible since no other reports listed below had grades or comments on changes needed before submission of the midterm.
 	Module 4 - Customer Problem Statements & System Requirements
 	Module 5 - Functional Requirements Specification
 	Module 6 - System Sequence Diagram and Activity Diagram
@@ -10,7 +10,7 @@ Also, no unit_testing, integration_testing, and data_collection codes or scripts
 These look to be things we will cover in Chapter 11. 
 I emailed the professor on 3/6 as well as 3/11 asking for clarification and have yet to hear back.
 
-No separate section for the project plan or reference was added either. 
+No separate section for the project plan or reference was added to the Systems_Requirements document either. 
 In part of our proposal, we list a plan of work which I believe covers the project plan.
 I do not know what is needed in the reference portion at all.
 I emailed the professor on 3/11 asking for clarification on both but have yet to hear back.
