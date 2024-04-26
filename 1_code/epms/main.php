@@ -196,8 +196,8 @@
 									<td class="hire-date"><?php echo htmlspecialchars($row['hire_date']); ?></td>
 									<td class="city"><?php echo htmlspecialchars($row['city']); ?></td>
 									<td class="pay-rate"><?php echo htmlspecialchars($row['pay_rate']); ?></td>
-									<td class="text-center"><button type="button" class="edit btn" name="edit-employee" data-eid="<?php echo htmlspecialchars($row['EID']); ?>"><i class="fa-solid fa-user-pen"></i></button></td>
-									<td class="text-center"><button type="submit" class="delete btn" name="delete-employee" data-eid="<?php echo htmlspecialchars($row['EID']); ?>" data-full-name="<?php echo htmlspecialchars($row['first_name']) . ' ' . htmlspecialchars($row['last_name']); ?>"><i class="fa-solid fa-trash"></i></button></td>				
+									<td class="text-center"><button <?php echo $user->getGroup() == 'viewer' ? 'disabled' : '' ?> type="button" class="edit btn" name="edit-employee" data-eid="<?php echo htmlspecialchars($row['EID']); ?>"><i class="fa-solid fa-user-pen"></i></button></td>
+									<td class="text-center"><button <?php echo $user->getGroup() == 'viewer' ? 'disabled' : '' ?> type="submit" class="delete btn" name="delete-employee" data-eid="<?php echo htmlspecialchars($row['EID']); ?>" data-full-name="<?php echo htmlspecialchars($row['first_name']) . ' ' . htmlspecialchars($row['last_name']); ?>"><i class="fa-solid fa-trash"></i></button></td>				
 								</tr>
 							<?php endforeach ?>
 								<tr class="table-row">
@@ -235,7 +235,7 @@
 											<option value="G8">G8</option>
 										</select>
 									</td>
-									<td class="text-center" colspan="2"><button type="submit" class="btn btn-success" name="add-employee">Add</button></td>
+									<td class="text-center" colspan="2"><button <?php echo $user->getGroup() == 'viewer' ? 'disabled' : '' ?> type="submit" class="btn btn-success" name="add-employee">Add</button></td>
 								</tr>
 							</tbody>
 						</table>

@@ -8,6 +8,20 @@
 	border-color: #dee2e6;
 }
 
+/* Additional styles for disabled buttons */
+.btn[disabled]{
+	border: none;
+}
+
+td:has(.btn[disabled]){ /* Can't add cursor: not-allowed; to button with pointer-events: none;, this adds cursor: not-allowed; to parent <td> instead */
+	cursor: not-allowed;
+}
+
+.btn.edit[disabled],
+.btn.delete[disabled]{
+	color: #afafaf;
+}
+
 /* Additional utility class */
 .h-100-vh{
 	height: 100vh;
